@@ -1,0 +1,125 @@
+.mynavbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.container-fluid {
+  padding: 0px 0px 0px 0px;
+  margin: 4px;
+  height: 35px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  max-width: 80%;
+  max-height: 50px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("path/to/toggler-icon.png");
+}
+
+.navbar-nav .nav-link {
+  /* background-color: #09c2c2; */
+  color: #000000;
+  font-size: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(129, 129, 129);
+  font-size: 35px;
+}
+
+.btn-secondary {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.bi-cart {
+  color: red;
+}
+.HeartButton .bi-heart-fill {
+  color: red;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content form div {
+  margin-bottom: 10px;
+}
+
+.modal-content label {
+  margin-right: 10px;
+}
+
+.modal-content input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-content button {
+  margin-top: 10px;
+}
+.green {
+  color: green;
+}
